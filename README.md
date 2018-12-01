@@ -7,10 +7,10 @@ Pi Finder is a small BASH script for discovering Raspberry Pis on your local net
 
 ## Install prerequisites:
 On Debian/Ubuntu:
-`apt install gawk nmap`
+`sudo apt install gawk nmap`
 
 On RHEL/Fedora:
-`yum install gawk nmap`
+`sudo yum install gawk nmap`
 
 ## Change directory
 `cd pifinder`
@@ -19,4 +19,4 @@ On RHEL/Fedora:
 `chmod +x findpi`
 
 ## Then run it:
-`./findpi`
+`sudo ./findpi`
